@@ -11,9 +11,11 @@ gem 'json'
 gem 'rspec-rails'
 gem 'webrat'
 gem 'gravatar_image_tag'
+gem "will_paginate", :git => "https://github.com/p7r/will_paginate.git", :branch => "rails3"
 
 group :development do
  gem 'annotate', '~> 2.4.1.beta' 
+ gem 'faker'
 end
 
 # Gems used only for assets and not required
